@@ -1,0 +1,1 @@
+ # Coordinate-related helpers, e.g., distance, area calculation

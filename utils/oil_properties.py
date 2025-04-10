@@ -1,0 +1,1 @@
+# Dictionary or class for different oil types and their properties
