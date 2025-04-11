@@ -1,0 +1,31 @@
+spill_id,date,latitude,longitude,oil_type,volume_barrels,water_temp_c,wind_speed_kmh,wave_height_m,cleanup_method,actual_surface_area_km2,actual_cleanup_days,notes
+SPILL001,2010-04-20,28.7361,-88.3661,crude_medium,4900000,21.5,15.7,1.2,mechanical+dispersant,10000,87,Deepwater Horizon disaster in Gulf of Mexico
+SPILL002,2018-01-14,31.9756,127.2634,crude_heavy,136000,14.3,22.8,3.4,mechanical+burning,520,29,Sanchi tanker collision in East China Sea
+SPILL003,1989-03-24,60.8406,-146.8623,crude_light,257000,3.9,10.3,0.8,mechanical+manual,28000,900,Exxon Valdez tanker grounding in Prince William Sound
+SPILL004,2021-10-02,33.6542,-118.1421,crude_light,25000,18.2,8.5,0.5,mechanical+booms,34,12,Pipeline rupture off California coast
+SPILL005,2016-05-19,4.9121,-52.6345,crude_medium,88000,27.6,12.1,1.0,dispersant,180,23,Offshore platform leak in South American waters
+SPILL006,2019-07-12,21.3784,-97.5136,bunker_c,12000,26.8,18.2,2.1,mechanical,65,34,Cargo ship leak in Gulf of Mexico
+SPILL007,2022-01-15,-34.6546,-58.4846,diesel,5800,24.7,9.3,0.3,booms+skimmers,12,7,Fuel tanker accident in South American port
+SPILL008,2020-08-06,-20.1725,57.5213,bunker_c,1000,25.2,32.7,3.8,mechanical+manual,5.2,45,MV Wakashio grounding off Mauritius coast
+SPILL009,2017-11-21,37.5634,-123.8433,crude_heavy,28000,15.4,25.6,2.7,dispersant+skimmers,87,18,Tanker incident off West Coast of US
+SPILL010,2014-03-22,29.7428,-95.1428,bunker_c,4000,19.2,11.8,0.4,mechanical+booms,7.5,22,Ship collision in Houston Ship Channel
+SPILL011,2022-09-18,42.3682,-71.0498,gasoline,1200,17.6,14.2,0.2,booms+absorbents,1.8,3,Fuel terminal leak in Boston Harbor
+SPILL012,2015-05-19,34.4208,-119.6982,crude_medium,2400,16.8,7.9,0.6,mechanical+manual,15.3,14,Pipeline rupture at Refugio State Beach
+SPILL013,2018-12-05,49.2827,-123.1207,diesel,3500,8.2,18.6,1.1,mechanical+booms,8.7,5,Container ship fuel spill in Vancouver harbor
+SPILL014,2020-06-29,69.3516,35.1184,diesel,21000,5.4,7.2,0.8,mechanical+dispersant,48,12,Arctic spill from fuel storage tank collapse
+SPILL015,2021-02-07,24.7964,51.5152,crude_light,7500,22.1,10.8,1.2,mechanical+absorbents,23,8,Small tanker leak in Persian Gulf
+SPILL016,2019-04-12,-6.1435,106.7945,lubricating_oil,4200,28.7,6.5,0.3,booms+skimmers,2.9,11,Port facility spill in Southeast Asia
+SPILL017,2017-09-08,25.7617,-80.1918,jet_fuel,6800,26.3,42.6,4.8,none,14.2,2,Hurricane damage to storage facility in Miami
+SPILL018,2023-02-03,51.5074,-0.1278,gasoline,3200,7.8,12.4,0.4,booms+absorbents,2.6,4,River barge accident in Thames
+SPILL019,2015-10-28,35.0662,-89.9711,crude_light,9600,17.9,8.8,0.0,mechanical+vacuum,7.8,19,Pipeline rupture into Mississippi River
+SPILL020,2022-05-16,-33.8688,151.2093,bunker_c,5400,19.5,15.3,1.6,mechanical+dispersant,11.3,15,Container ship leak in Sydney Harbor
+SPILL021,2020-12-11,29.9511,-90.0715,crude_medium,16500,15.6,9.7,0.2,mechanical+booms,32.7,28,Mississippi River barge collision
+SPILL022,2016-08-25,38.5976,-121.5014,diesel,4300,24.2,7.8,0.0,mechanical+absorbents,3.8,6,River transport accident in Sacramento
+SPILL023,2021-11-19,21.3099,-157.8581,kerosene,2800,25.9,16.2,0.9,booms+skimmers,5.1,4,Honolulu harbor facility leak
+SPILL024,2018-03-15,40.7128,-74.0060,lubricating_oil,1100,8.4,20.3,1.0,booms+absorbents,0.8,8,New York Harbor ship maintenance accident
+SPILL025,2023-01-08,-46.2044,168.3985,crude_heavy,18500,12.8,32.4,4.2,mechanical+dispersant,56.3,26,Tanker incident in southern ocean
+SPILL026,2022-07-22,55.6761,12.5683,jet_fuel,1750,18.6,13.1,0.7,mechanical+skimmers,2.2,5,Copenhagen harbor aviation fuel spill
+SPILL027,2019-06-07,48.8566,2.3522,diesel,900,19.2,6.4,0.0,absorbents+booms,0.7,3,Seine River transport accident
+SPILL028,2017-02-12,13.7563,100.5018,bunker_c,7200,29.4,9.2,0.5,mechanical+manual,16.8,31,Bangkok port storage tank failure
+SPILL029,2021-05-03,32.0853,-81.0169,crude_medium,5300,22.7,14.6,0.3,mechanical+booms,17.2,16,Savannah port facility incident
+SPILL030,2022-08-17,3.1390,101.6869,crude_light,12600,28.2,8.9,0.4,mechanical+dispersant,29.6,14,Malaysian waters pipeline leak
