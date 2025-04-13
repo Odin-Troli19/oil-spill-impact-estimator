@@ -1,0 +1,24 @@
+
+
+
+pip install -r requirements.txt --no-warn-script-location
+
+python -m pytest
+
+# Navigate to your project directory
+cd oil_spill_impact_estimator
+
+# Install required packages
+pip install -r requirements.txt
+
+# Basic usage
+python main.py --volume 1000 --lat 29.8 --lon -90.2 --oil-type crude_medium
+
+# With additional options
+python main.py --volume 5000 --lat 29.8 --lon -90.2 --oil-type crude_medium --show-map --output-map my_spill_map.html
+
+Simulate a small diesel spill:
+bashpython main.py --volume 500 --lat 37.7749 --lon -122.4194 --oil-type diesel --show-map
+
+Simulate a large crude oil spill:
+bashpython main.py --volume 25000 --lat 28.7361 --lon -88.3661 --oil-type crude_heavy

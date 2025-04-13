@@ -28,6 +28,42 @@ def load_oil_types(filepath=None):
         # Try to find the default location
         root_dir = Path(__file__).parents[1]  # Go up two levels from this file
         default_paths = [
+            root_dir / 'data' / 'oil_types.json',
+            Path('data') / 'oil_types.json',  # Relative to current working directory
+            Path('oil_types.json')  # Direct in current working directory
+        ]
+        
+        # Try each path until we find a valid file
+        for path in default_paths:
+            if path.exists():
+                filepath = path
+                break
+        
+        if filepath is None:
+            raise FileNotFoundError("Could not find oil_types.json in default locations")
+    
+    # Load the oil types
+    with open(filepath, 'r') as f:
+        oil_types = json.load(f)
+    
+    return oil_types
+
+
+def load_sample_data(filepath=None):
+    """
+    Load sample spill data from a CSV file.
+    
+    Args:
+        filepath (str): Path to the sample data CSV file.
+                        If None, uses the default location in the data directory.
+                        
+    Returns:
+        pandas.DataFrame: DataFrame containing the sample spill data
+    """
+    if filepath is None:
+        # Try to find the default location
+        root_dir = Path(__file__).parents[1]  # Go up two levels from this file
+        default_paths = [
             root_dir / 'data' / 'sample_spills.csv',
             Path('data') / 'sample_spills.csv',  # Relative to current working directory
             Path('sample_spills.csv')  # Direct in current working directory
@@ -272,40 +308,4 @@ def load_environmental_data(latitude, longitude, filepath=None):
         'wave_height_m': 0.5 + 2 * wind_factor * np.random.random(),
         'environmental_sensitivity': 2.0 if is_coastal else 1.0,
         'location_type': 'coastal' if is_coastal else 'open_ocean'
-    } filepath is None:
-        # Try to find the default location
-        root_dir = Path(__file__).parents[1]  # Go up two levels from this file
-        default_paths = [
-            root_dir / 'data' / 'oil_types.json',
-            Path('data') / 'oil_types.json',  # Relative to current working directory
-            Path('oil_types.json')  # Direct in current working directory
-        ]
-        
-        # Try each path until we find a valid file
-        for path in default_paths:
-            if path.exists():
-                filepath = path
-                break
-        
-        if filepath is None:
-            raise FileNotFoundError("Could not find oil_types.json in default locations")
-    
-    # Load the oil types
-    with open(filepath, 'r') as f:
-        oil_types = json.load(f)
-    
-    return oil_types
-
-
-def load_sample_data(filepath=None):
-    """
-    Load sample spill data from a CSV file.
-    
-    Args:
-        filepath (str): Path to the sample data CSV file.
-                        If None, uses the default location in the data directory.
-                        
-    Returns:
-        pandas.DataFrame: DataFrame containing the sample spill data
-    """
-    if
+    }
